@@ -6,15 +6,15 @@ const Rating = ({ value, text, color }) => {
     <div className={"rating"}>
       <span>
         <i
-          style={{ color }}
-          className={
-            value > 1
-              ? "fas fa-star"
-              : value >= 0.5
-              ? "fas fa-star-half-alt"
-              : "far fa-star"
-          }
-        ></i>
+    style={{color}}
+    className={
+        value > 1
+            ? "fas fa-star"
+            : value >= 0.5
+                ? "fas fa-star-half-alt"
+                : "far fa-star"
+    }
+    />
       </span>
       <span>
         <i
@@ -26,7 +26,7 @@ const Rating = ({ value, text, color }) => {
               ? "fas fa-star-half-alt"
               : "far fa-star"
           }
-        ></i>
+        />
       </span>
       <span>
         <i
@@ -38,7 +38,7 @@ const Rating = ({ value, text, color }) => {
               ? "fas fa-star-half-alt"
               : "far fa-star"
           }
-        ></i>
+        />
       </span>
       <span>
         <i
@@ -50,7 +50,7 @@ const Rating = ({ value, text, color }) => {
               ? "fas fa-star-half-alt"
               : "far fa-star"
           }
-        ></i>
+        />
       </span>
       <span>
         <i
@@ -62,7 +62,7 @@ const Rating = ({ value, text, color }) => {
               ? "fas fa-star-half-alt"
               : "far fa-star"
           }
-        ></i>
+        />
       </span>
       <span>{text && text}</span>
     </div>
